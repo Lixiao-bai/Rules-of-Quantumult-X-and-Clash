@@ -122,6 +122,8 @@ host-suffix,sogo.com,direct
 host-suffix,sogou.com,direct
 host-suffix,sogoucdn.com,direct
 # 其他常用网站直联
+host-suffix,damai.cn,direct
+host-suffix,1688.cn,direct
 host-suffix,cn,direct
 host-suffix,360in.com,direct
 host-suffix,51ym.me,direct
