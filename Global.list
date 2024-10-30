@@ -3,8 +3,6 @@
 host-suffix,9to5mac.com,OutSide
 host-suffix,abpchina.org,OutSide
 host-suffix,adblockplus.org,OutSide
-host-suffix,adobe.com,OutSide
-host-suffix,adobe.io,OutSide
 host-suffix,alfredapp.com,OutSide
 host-suffix,amplitude.com,OutSide
 host-suffix,ampproject.org,OutSide
@@ -281,8 +279,6 @@ host-suffix,9to5mac.com,OutSide
 host-suffix,abpchina.org,OutSide
 host-suffix,accountkit.com,OutSide
 host-suffix,adblockplus.org,OutSide
-host-suffix,adobe.com,OutSide
-host-suffix,adobedtm.com,OutSide
 host-suffix,aerisapi.com,OutSide
 host-suffix,akamaihd.net,OutSide
 host-suffix,alfredapp.com,OutSide
