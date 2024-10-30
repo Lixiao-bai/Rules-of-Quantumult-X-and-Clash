@@ -28,19 +28,6 @@ host-suffix,vod-abematv.akamaized.net,ForeignMedia
 host-suffix,afp.com,ForeignMedia
 host-suffix,afpforum.com,ForeignMedia
 
-# > Apple Music
-user-agent,Music*,Apple Music
-host-suffix,applemusic.com,Apple Music
-host-suffix,blobstore.apple.com,Apple Music
-host-suffix,music.apple.com,Apple Music
-host,aod.itunes.apple.com,Apple Music
-host,aod-ssl.itunes.apple.com,Apple Music
-host,audio.itunes.apple.com,Apple Music
-host,audio-ssl.itunes.apple.com,Apple Music
-host,mvod.itunes.apple.com,Apple Music
-host,streamingaudio.itunes.apple.com,Apple Music
-# iCloud Music Library
-host-suffix,blobstore.apple.com,Apple Music
 
 # > All4
 host-suffix,c4assets.com,ForeignMedia
