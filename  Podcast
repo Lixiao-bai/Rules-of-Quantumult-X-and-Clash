@@ -1,0 +1,8 @@
+##  Podcast
+
+HOST,podcast-api.apple.com,Apple
+HOST,embed.podcasts.apple.com,Apple
+
+HOST-SUFFIX,podcast-api.apple.com,Apple
+HOST-SUFFIX,embed.podcasts.apple.com,Apple
+HOST-SUFFIX,podcasts.apple.com,Apple

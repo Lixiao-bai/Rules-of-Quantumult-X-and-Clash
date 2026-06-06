@@ -1,0 +1,5 @@
+HOST,fitness.apple.com,Apple
+HOST,fitnessplus.apple.com,Apple
+
+HOST-SUFFIX,fitness.apple.com,Apple
+HOST-SUFFIX,fitnessplus.apple.com,Apple

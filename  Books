@@ -1,0 +1,5 @@
+HOST,books.apple.com,Apple
+HOST,books.itunes.apple.com,Apple
+
+HOST-SUFFIX,books.apple.com,Apple
+HOST-SUFFIX,books.itunes.apple.com,Apple

@@ -1,0 +1,7 @@
+###  News
+HOST,news.apple.com,Apple
+HOST,apple.news,Apple
+
+HOST-SUFFIX,news.apple.com,Apple
+HOST-SUFFIX,news-assets.apple.com,Apple
+HOST-SUFFIX,news-edge.apple.com,Apple
