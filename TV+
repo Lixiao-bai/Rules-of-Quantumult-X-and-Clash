@@ -10,6 +10,7 @@ HOST,umc-tempo-api.apple.com,US
 HOST,uts-api.itunes.apple.com,US
 HOST,play-edge.itunes.apple.com,US
 HOST,np-edge.itunes.apple.com,US
+HOST,sps-media.apple.com,US
 HOST,linear.tv.apple.com,US
 HOST,hls.itunes.apple.com,US
 HOST,hls-amt.itunes.apple.com,US
@@ -20,6 +21,7 @@ HOST-SUFFIX,tv-api.apple.com,US
 HOST-SUFFIX,apple-tv-plus.apple.com,US
 HOST-SUFFIX,play-edge.itunes.apple.com,US
 HOST-SUFFIX,np-edge.itunes.apple.com,US
+HOST-SUFFIX,sps-media.apple.com,US
 HOST-SUFFIX,linear.tv.apple.com,US
 HOST-SUFFIX,hls.itunes.apple.com,US
 HOST-SUFFIX,hls-amt.itunes.apple.com,US
