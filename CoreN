@@ -49,6 +49,7 @@ HOST,guzzoni.apple.com,direct
 HOST,apps.apple.com,direct
 HOST,xp.apple.com,direct
 HOST,bag.itunes.apple.com,direct
+HOST,userpub.itunes.apple.com,direct
 HOST,api-edge.apps.apple.com,direct
 HOST,api.apps.apple.com,direct
 HOST,lookup-api.apple.com,direct

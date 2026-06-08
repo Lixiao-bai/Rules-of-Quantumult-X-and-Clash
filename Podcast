@@ -6,11 +6,13 @@ HOST,amp-api.podcasts.apple.com,US
 HOST,podcast-api.apple.com,US
 HOST,embed.podcasts.apple.com,US
 HOST,podcasts.apple.com,US
+HOST,news-assets.apple.com,US
 
 HOST-SUFFIX,amp-api.podcasts.apple.com,US
 HOST-SUFFIX,podcast-api.apple.com,US
 HOST-SUFFIX,embed.podcasts.apple.com,US
 HOST-SUFFIX,podcasts.apple.com,US
+HOST-SUFFIX,news-assets.apple.com,US
 
 # Apple-hosted podcast artwork and audio metadata.
 HOST-SUFFIX,podcasts.apple.com.cdn20.com,US
