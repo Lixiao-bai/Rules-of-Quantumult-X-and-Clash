@@ -16,7 +16,6 @@ HOST,aod.itunes.apple.com,AppleMusic
 HOST,mvod.itunes.apple.com,AppleMusic
 
 HOST-SUFFIX,music.apple.com,AppleMusic
-HOST-SUFFIX,applemusic.com,AppleMusic
 HOST-SUFFIX,audio-ssl.itunes.apple.com,AppleMusic
 HOST-SUFFIX,radio.itunes.apple.com,AppleMusic
 HOST-SUFFIX,tv.applemusic.com,AppleMusic
