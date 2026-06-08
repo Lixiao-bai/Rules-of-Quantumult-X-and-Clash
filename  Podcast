@@ -1,8 +1,17 @@
-##  Podcast
+## Apple Podcasts
 
-HOST,podcast-api.apple.com,Apple
-HOST,embed.podcasts.apple.com,Apple
+# Catalog and editorial APIs decide regional availability. Use US for Apple
+# official shows and Apple News related podcasts.
+HOST,amp-api.podcasts.apple.com,US
+HOST,podcast-api.apple.com,US
+HOST,embed.podcasts.apple.com,US
+HOST,podcasts.apple.com,US
 
-HOST-SUFFIX,podcast-api.apple.com,Apple
-HOST-SUFFIX,embed.podcasts.apple.com,Apple
-HOST-SUFFIX,podcasts.apple.com,Apple
+HOST-SUFFIX,amp-api.podcasts.apple.com,US
+HOST-SUFFIX,podcast-api.apple.com,US
+HOST-SUFFIX,embed.podcasts.apple.com,US
+HOST-SUFFIX,podcasts.apple.com,US
+
+# Apple-hosted podcast artwork and audio metadata.
+HOST-SUFFIX,podcasts.apple.com.cdn20.com,US
+HOST-SUFFIX,podcasts.apple.com.edgekey.net,US

@@ -1,58 +1,158 @@
-# Facetime
-HOST,facetime.apple.com,AppleAPI
-HOST-SUFFIX,facetime.apple.com,AppleAPI
+## Apple Core APIs
 
-# Findmy
-HOST,findmy.apple.com,AppleAPI
-HOST-SUFFIX,findmy.apple.com,AppleAPI
+# FaceTime / iMessage / Push
+HOST,facetime.apple.com,direct
+HOST-SUFFIX,facetime.apple.com,direct
 
-# CloudKit
-HOST,setup.icloud.com,AppleAPI
-HOST-SUFFIX,apple-cloudkit.com,AppleAPI
-HOST-SUFFIX,icloud-content.com,AppleAPI
+HOST-KEYWORD,push-apple.com.akadns.net,direct
+HOST-SUFFIX,push.apple.com,direct
+HOST-SUFFIX,push.apple.com.akadns.net,direct
+HOST-SUFFIX,courier.push.apple.com,direct
+HOST-SUFFIX,gateway.push.apple.com,direct
+HOST-SUFFIX,gateway.sandbox.push.apple.com,direct
+HOST-SUFFIX,push-apple.com.akadns.net,direct
 
-HOST,identity.apple.com,AppleAPI
-HOST-SUFFIX,identity.apple.com,AppleAPI
+# Find My / location gateway
+HOST,findmy.apple.com,direct
+HOST-SUFFIX,findmy.apple.com,direct
+HOST,fmfmobile.icloud.com,direct
+HOST,fmipmobile.icloud.com,direct
+HOST,statici.icloud.com,direct
 
-HOST,albert.apple.com,AppleAPI
-HOST-SUFFIX,albert.apple.com,AppleAPI
+# iCloud / CloudKit / Apple ID
+HOST,gateway.icloud.com,direct
+HOST,setup.icloud.com,direct
+HOST,www.icloud.com,direct
+HOST,share.icloud.com,direct
+HOST,cvws.icloud-content.com,direct
+HOST,cdn.apple-cloudkit.com,direct
+HOST-SUFFIX,apple-cloudkit.com,direct
+HOST-SUFFIX,icloud-content.com,direct
+HOST-SUFFIX,icloud.com,direct
+HOST-SUFFIX,me.com,direct
+HOST-SUFFIX,blobstore.apple.com,direct
 
-HOST,apps.apple.com,AppleAPI
-HOST,xp.apple.com,AppleAPI
-HOST,bag.itunes.apple.com,AppleAPI
-HOST,api-edge.apps.apple.com,AppleAPI
-HOST,api.apps.apple.com,AppleAPI
-HOST,play.itunes.apple.com,AppleAPI
-HOST,se.itunes.apple.com,AppleAPI
-HOST,se-edge.itunes.apple.com,AppleAPI
-HOST,su.itunes.apple.com,AppleAPI
-HOST,upp.itunes.apple.com,AppleAPI
+HOST,identity.apple.com,direct
+HOST-SUFFIX,identity.apple.com,direct
+HOST,appleid.apple.com,direct
+HOST-SUFFIX,appleid.apple.com,direct
+HOST,idmsa.apple.com,direct
+HOST-SUFFIX,idmsa.apple.com,direct
+HOST,auth-edge.apple.com,direct
+HOST-SUFFIX,auth-edge.apple.com,direct
 
-HOST-KEYWORD,buy.itunes.apple.com,AppleAPI
+HOST,albert.apple.com,direct
+HOST-SUFFIX,albert.apple.com,direct
 
-HOST-SUFFIX,push.apple.com,AppleAPI
-HOST-SUFFIX,courier.push.apple.com,AppleAPI
+# App Store / iTunes account APIs
+HOST,guzzoni.apple.com,direct
+HOST,apps.apple.com,direct
+HOST,xp.apple.com,direct
+HOST,bag.itunes.apple.com,direct
+HOST,api-edge.apps.apple.com,direct
+HOST,api.apps.apple.com,direct
+HOST,lookup-api.apple.com,direct
+HOST,amp-api.apps.apple.com,direct
+HOST,amp-api.media.apple.com,direct
+HOST,play.itunes.apple.com,direct
+HOST,se.itunes.apple.com,direct
+HOST,se-edge.itunes.apple.com,direct
+HOST,su.itunes.apple.com,direct
+HOST,upp.itunes.apple.com,direct
 
-HOST-SUFFIX,itunes-apple.com.akadns.net,AppleAPI
-HOST-SUFFIX,service.gc.apple.com,AppleAPI
-HOST-SUFFIX,setup.icloud.com,AppleAPI
-HOST-SUFFIX,appleid.apple.com,AppleAPI
-HOST-SUFFIX,gc.apple.com,AppleAPI
-HOST-SUFFIX,gsa.apple.com,AppleAPI
-HOST-SUFFIX,ess.apple.com,AppleAPI
+HOST-KEYWORD,buy.itunes.apple.com,direct
 
-HOST-SUFFIX,itunes.apple.com,AppleAPI
-HOST-SUFFIX,service.ess.apple.com,AppleAPI
-HOST-SUFFIX,init.ess.apple.com,AppleAPI
-HOST-SUFFIX,static.ess.apple.com,AppleAPI
-HOST-SUFFIX,gateway.sandbox.push.apple.com,AppleAPI
-HOST-SUFFIX,gateway.push.apple.com,AppleAPI
-HOST-SUFFIX,swscan.apple.com,AppleAPI
-HOST-SUFFIX,swquery.apple.com,AppleAPI
+HOST-SUFFIX,itunes-apple.com.akadns.net,direct
+HOST-SUFFIX,service.gc.apple.com,direct
+HOST-SUFFIX,setup.icloud.com,direct
+HOST-SUFFIX,gc.apple.com,direct
+HOST-SUFFIX,gsa.apple.com,direct
+HOST-SUFFIX,ess.apple.com,direct
 
-## System upgrade
-HOST,mesu.apple.com,AppleAPI
-HOST,swdownload.apple.com,AppleAPI
+HOST-SUFFIX,service.ess.apple.com,direct
+HOST-SUFFIX,init.ess.apple.com,direct
+HOST-SUFFIX,static.ess.apple.com,direct
+HOST-SUFFIX,swscan.apple.com,direct
+HOST-SUFFIX,swquery.apple.com,direct
 
-HOST-SUFFIX,mesu.apple.com,AppleAPI
-HOST-SUFFIX,swdownload.apple.com,AppleAPI
+# App Store downloads and system update CDN.
+HOST,iosapps.itunes.apple.com,direct
+HOST,osxapps.itunes.apple.com,direct
+HOST,oscdn.apple.com,direct
+HOST,supportdownload.apple.com,direct
+HOST,appldnld.apple.com,direct
+HOST,appldnld.apple.com.edgesuite.net,direct
+HOST,mesu.apple.com,direct
+HOST,swdownload.apple.com,direct
+HOST,swcdn.apple.com,direct
+HOST,swdist.apple.com,direct
+HOST,swcatalog.apple.com,direct
+HOST,updates.cdn-apple.com,direct
+HOST,updates-http.cdn-apple.com,direct
+HOST,downloaddispatch.itunes.apple.com,direct
+HOST,app-site-association.cdn-apple.com,direct
+USER-AGENT,com.apple.appstored*,direct
+PROCESS-NAME,storedownloadd,direct
+
+HOST-SUFFIX,iosapps.itunes.apple.com,direct
+HOST-SUFFIX,osxapps.itunes.apple.com,direct
+HOST-SUFFIX,oscdn.apple.com,direct
+HOST-SUFFIX,supportdownload.apple.com,direct
+HOST-SUFFIX,appldnld.apple.com,direct
+HOST-SUFFIX,mesu.apple.com,direct
+HOST-SUFFIX,swdownload.apple.com,direct
+HOST-SUFFIX,swcdn.apple.com,direct
+HOST-SUFFIX,swdist.apple.com,direct
+HOST-SUFFIX,swcatalog.apple.com,direct
+HOST-SUFFIX,updates.cdn-apple.com,direct
+HOST-SUFFIX,updates-http.cdn-apple.com,direct
+HOST-SUFFIX,mzstatic.com,direct
+
+# China mainland Apple endpoints.
+HOST,gs-loc-cn.apple.com,direct
+HOST,api.smoot.apple.cn,direct
+HOST-SUFFIX,icloud.com.cn,direct
+HOST-SUFFIX,apple.com.cn,direct
+HOST-SUFFIX,cn.apple.com,direct
+HOST-SUFFIX,cn.ls.apple.com,direct
+HOST-SUFFIX,cn-ssl.ls.apple.com,direct
+HOST-SUFFIX,gspe19-cn-ssl.ls.apple.com,direct
+
+# China mainland Maps.
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,direct
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,direct
+USER-AGENT,com.apple.geod*,direct
+USER-AGENT,com.apple.Maps,direct
+USER-AGENT,geod*,direct
+USER-AGENT,locationd*,direct
+USER-AGENT,Maps*,direct
+HOST-SUFFIX,ls.apple.com,direct
+HOST-SUFFIX,gs-loc.apple.com,direct
+HOST-SUFFIX,cdn-apple-mapkit.com,direct
+HOST-SUFFIX,apple-mapkit.com,direct
+HOST-SUFFIX,dispatcher.is.autonavi.com,direct
+
+# System services.
+HOST,weather-data.apple.com,direct
+HOST,api.smoot.apple.com,direct
+HOST,captive.apple.com,direct
+HOST,smp-device-content.apple.com,direct
+HOST,reserve-prime.apple.com,direct
+HOST,lcdn-registration.apple.com,direct
+HOST,suconfig.apple.com,direct
+HOST,xp-cdn.apple.com,direct
+HOST,sequoia.apple.com,direct
+HOST,seed-sequoia.siri.apple.com,direct
+HOST,sq-device.apple.com,direct
+HOST-KEYWORD,smp-device,direct
+HOST-SUFFIX,lcdn-locator.apple.com,direct
+HOST-SUFFIX,store.apple.com,direct
+USER-AGENT,*com.apple.mobileme.fmip1,direct
+USER-AGENT,*WeatherFoundation*,direct
+USER-AGENT,FindMyFriends*,direct
+USER-AGENT,FindMyiPhone*,direct
+USER-AGENT,FMDClient*,direct
+USER-AGENT,FMFD*,direct
+USER-AGENT,fmflocatord*,direct
+USER-AGENT,passd*,direct
+USER-AGENT,Wallet*,direct

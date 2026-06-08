@@ -1,0 +1,25 @@
+## Apple Music
+
+USER-AGENT,*Music?,AppleMusic
+USER-AGENT,Music*,AppleMusic
+USER-AGENT,com.apple.Music*,AppleMusic
+
+HOST,music.apple.com,AppleMusic
+HOST,beta.music.apple.com,AppleMusic
+HOST,amp-api.music.apple.com,AppleMusic
+HOST,amp-api.media.apple.com,AppleMusic
+HOST,audio-ssl.itunes.apple.com,AppleMusic
+HOST,radio.itunes.apple.com,AppleMusic
+HOST,tv.applemusic.com,AppleMusic
+HOST,js-cdn.music.apple.com,AppleMusic
+HOST,aod.itunes.apple.com,AppleMusic
+HOST,mvod.itunes.apple.com,AppleMusic
+
+HOST-SUFFIX,music.apple.com,AppleMusic
+HOST-SUFFIX,applemusic.com,AppleMusic
+HOST-SUFFIX,audio-ssl.itunes.apple.com,AppleMusic
+HOST-SUFFIX,radio.itunes.apple.com,AppleMusic
+HOST-SUFFIX,tv.applemusic.com,AppleMusic
+HOST-SUFFIX,js-cdn.music.apple.com,AppleMusic
+HOST-SUFFIX,aod.itunes.apple.com,AppleMusic
+HOST-SUFFIX,mvod.itunes.apple.com,AppleMusic

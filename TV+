@@ -1,10 +1,26 @@
 ## Apple TV+
 
-HOST,tv.apple.com,Apple
-HOST,tv-api.apple.com,Apple
-HOST,umc-tempo-api.apple.com,Apple
-HOST,uts-api.itunes.apple.com,Apple
+# Entitlement, catalog, and playback APIs. Use US for full bitrate and region.
+USER-AGENT,AppleTV*,US
+USER-AGENT,com.apple.tv*,US
 
-HOST-SUFFIX,tv.apple.com,Apple
-HOST-SUFFIX,tv-api.apple.com,Apple
-HOST-SUFFIX,apple-tv-plus.apple.com,Apple
+HOST,tv.apple.com,US
+HOST,tv-api.apple.com,US
+HOST,umc-tempo-api.apple.com,US
+HOST,uts-api.itunes.apple.com,US
+HOST,play-edge.itunes.apple.com,US
+HOST,np-edge.itunes.apple.com,US
+HOST,linear.tv.apple.com,US
+HOST,hls.itunes.apple.com,US
+HOST,hls-amt.itunes.apple.com,US
+HOST,hls-svod.itunes.apple.com,US
+
+HOST-SUFFIX,tv.apple.com,US
+HOST-SUFFIX,tv-api.apple.com,US
+HOST-SUFFIX,apple-tv-plus.apple.com,US
+HOST-SUFFIX,play-edge.itunes.apple.com,US
+HOST-SUFFIX,np-edge.itunes.apple.com,US
+HOST-SUFFIX,linear.tv.apple.com,US
+HOST-SUFFIX,hls.itunes.apple.com,US
+HOST-SUFFIX,hls-amt.itunes.apple.com,US
+HOST-SUFFIX,hls-svod.itunes.apple.com,US

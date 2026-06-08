@@ -99,6 +99,8 @@ static=PayPal, direct, US, img-url=https://raw.githubusercontent.com/erdongchany
 static=TestFlight, US, HK, JP, TW, SG, Final, direct, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/TestFlight.png
 # > Apple策略
 static=Apple, US, HK, JP, TW, SG, Final, direct, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Apple.png
+# > Apple Music策略
+static=AppleMusic, direct, US, HK, JP, TW, SG, Apple, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Apple.png
 # > Google策略
 static=Google, US, HK, JP, TW, SG, Final, direct, img-url=https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Google.png
 # > Microsoft策略

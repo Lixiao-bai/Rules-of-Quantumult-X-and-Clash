@@ -1,5 +1,9 @@
-HOST,fitness.apple.com,Apple
-HOST,fitnessplus.apple.com,Apple
+## Apple Fitness+
 
-HOST-SUFFIX,fitness.apple.com,Apple
-HOST-SUFFIX,fitnessplus.apple.com,Apple
+HOST,fitness.apple.com,US
+HOST,fitnessplus.apple.com,US
+HOST,hls-svod.itunes.apple.com,US
+
+HOST-SUFFIX,fitness.apple.com,US
+HOST-SUFFIX,fitnessplus.apple.com,US
+HOST-SUFFIX,hls-svod.itunes.apple.com,US
