@@ -92,7 +92,6 @@ HOST,updates-http.cdn-apple.com,direct
 HOST,downloaddispatch.itunes.apple.com,direct
 HOST,app-site-association.cdn-apple.com,direct
 USER-AGENT,com.apple.appstored*,direct
-PROCESS-NAME,storedownloadd,direct
 
 HOST-SUFFIX,iosapps.itunes.apple.com,direct
 HOST-SUFFIX,osxapps.itunes.apple.com,direct
